@@ -1,0 +1,10 @@
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1000;
+  }
+  .active {
+    color: rgb(230, 230, 60); 
+  }
