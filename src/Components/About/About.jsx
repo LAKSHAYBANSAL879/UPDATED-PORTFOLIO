@@ -41,7 +41,7 @@ export const About = () => {
         </div>
       </div>
       <div className="flex justify-center  flex-col items-center">
-        <h1 className="text-white text-5xl font-extrabold">Skills I know</h1>
+        <h1 className="text-white mt-2 text-3xl md:text-5xl font-extrabold">Skills I know</h1>
         <div className="flex flex-row flex-wrap ">
           <ul className="mt-4 flex flex-row flex-wrap justify-center gap-3">
             
@@ -291,7 +291,7 @@ export const About = () => {
           </ul>
         </div>
       </div>
-      <div className=" flex justify-center items-center m-auto mt-5 w-fit text-white text-5xl font-extrabold  border-b-yellow-300 border-b-4">Connect With me</div>
+      <div className=" flex justify-center items-center m-auto mt-5 w-fit text-white text-2xl md:text-5xl font-extrabold  border-b-yellow-300 border-b-4">Connect With me</div>
       <div>
       <p className="flex flex-row justify-center gap-5 mt-5">
       <a href="https://github.com/LAKSHAYBANSAL879" target="blank"><img align="center" src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Symbol.png" alt="https://www.linkedin.com/in/lakshay-bansal-534184251/" height="60" width="50" className="w-24" /></a>

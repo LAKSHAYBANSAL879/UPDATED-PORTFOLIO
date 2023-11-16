@@ -26,10 +26,10 @@ export const Contact = () => {
    <section id='contact'>
     <div className='flex flex-col' style={containerStyle}>
         <div>
-<h1 className='flex justify-center text-yellow-300 font-bold text-5xl'>Contact Me</h1>
+<h1 className='flex justify-center text-yellow-300 font-bold text-2xl md:text-5xl'>Contact Me</h1>
         </div>
         <div>
-            <h2 className='text-white flex justify-center text-xl mt-4 mb-4'>Please fill out this form to contact me</h2>
+            <h2 className='text-white flex justify-center md:text-xl mt-4 mb-4'>Please fill out this form to contact me</h2>
         </div>
         <div>
             <form ref={form} className='flex flex-col justify-center gap-6 items-center' onSubmit={sendEmail}  >

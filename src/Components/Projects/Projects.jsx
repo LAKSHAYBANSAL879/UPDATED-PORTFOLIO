@@ -24,10 +24,10 @@ export const Projects = () => {
   return (
     <section id="projects">
     <div className='flex flex-col gap-3' style={containerStyle}>
-        <div className='flex justify-center items-center text-5xl font-extrabold text-yellow-300'>My recent Projects</div>
+        <div className='flex justify-center items-center text-3xl md:text-5xl font-extrabold text-yellow-300'>My recent Projects</div>
         <div className='flex justify-center items-center text-xl text-white'>Here are some projects made by me</div>
         <div className='flex flex-col justify-start items-start w-full'>
-            <div className='text-purple-500  text-3xl font-bold ml-20'>
+            <div className='text-purple-500  text-xl md:text-3xl font-bold ml-20'>
                 <h1>HTML-CSS-JS PROJECTS</h1>
 
             </div>
@@ -79,7 +79,7 @@ export const Projects = () => {
             </div>
         </div>
         <div className='flex flex-col justify-start items-start w-full'>
-            <div className='text-purple-500  text-3xl font-bold ml-20'>
+            <div className='text-purple-500  text-xl md:text-3xl font-bold ml-20'>
                 <h1>NODEJS/EXPRESSJS/JS PROJECTS</h1>
 
             </div>
@@ -131,7 +131,7 @@ export const Projects = () => {
             </div>
         </div>
         <div className='flex flex-col justify-start items-start w-full'>
-            <div className='text-purple-500  text-3xl font-bold ml-20'>
+            <div className='text-purple-500  text-xl md:text-3xl font-bold ml-20'>
                 <h1>REACT PROJECTS</h1>
 
             </div>
@@ -184,7 +184,7 @@ export const Projects = () => {
             </div>
         </div>
         <div className='flex flex-col justify-start items-start w-full'>
-            <div className='text-purple-500  text-3xl font-bold ml-20'>
+            <div className='text-purple-500  text-xl md:text-3xl font-bold ml-20'>
                 <h1>MERN STACK PROJECTS</h1>
 
             </div>

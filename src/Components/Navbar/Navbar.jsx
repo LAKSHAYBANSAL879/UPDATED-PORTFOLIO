@@ -31,7 +31,7 @@ const [showMenu,setshowMenu]=useState(false);
         </button>
       </div>
       <FontAwesomeIcon icon={faBars} className='mobMenu  text-3xl mt-2 text-yellow-300 md:hidden' onClick={()=>{setshowMenu(!showMenu)}}/>
-      <div className='flex  md:hidden absolute top-20 right-12 w-48 justify-center rounded-xl items-center z-10 text-white h-fit mt-1 gap-2 bg-slate-800 flex-col' style={{display: showMenu? 'flex':'none'}}>
+      <div className='flex  md:hidden absolute  top-8 right-8 w-48 justify-center rounded-xl items-center z-10 text-white h-fit mt-1 gap-2 bg-slate-800 flex-col' style={{display: showMenu? 'flex':'none'}}>
              <Link activeClass='active' to='intro' spy={true} offset={-90} duration={500} smooth onClick={()=>{setshowMenu(false)}} className=  ' bg-slate-900 w-44 items-center justify-center align-middle flex border-b-yellow-400 border-b-4 border-spacing-2 md:hidden mt-2'>Home</Link>
             <Link  activeClass='active' to='about' spy={true} offset={-90} duration={500} smooth onClick={()=>{setshowMenu(false)}} className='border-b-yellow-400 border-b-4  bg-slate-900 w-44 items-center justify-center align-middle flex md:hidden '>About</Link>
             <Link activeClass='active' to='projects' spy={true} offset={-110} duration={500} smooth onClick={()=>{setshowMenu(false)}} className=' border-b-yellow-400 border-b-4  bg-slate-900 w-44 items-center justify-center align-middle flex md:hidden'>Projects</Link>

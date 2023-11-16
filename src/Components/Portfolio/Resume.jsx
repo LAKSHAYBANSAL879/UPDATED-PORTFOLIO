@@ -22,10 +22,10 @@ const Resume = () => {
   return (
     <section id="resume">
     <div className="flex flex-col items-center" style={containerStyle}>
-      <h1 className="text-4xl  text-yellow-300 font-bold mb-4 ">My Resume</h1>
-      <img src={photo} alt="" className='mt-10 hover:scale-110 transition-transform duration-500'/>
+      <h1 className="text-2xl md:text-4xl mt-10 text-yellow-300 font-bold -mb-2 md:mb-2 ">My Resume</h1>
+      <img src={photo} alt="" className='mt-10 md:w-auto md:h-auto w-3/4 hover:scale-110 transition-transform duration-500'/>
       <button
-        className=" p-2 bg-purple-500 mt-10 text-white rounded"
+        className=" p-2 bg-purple-500 mt-7 mb-4 text-white rounded"
         onClick={handleDownload}
       >
         Download Resume
