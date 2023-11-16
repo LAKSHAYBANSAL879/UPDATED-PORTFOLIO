@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "../Assets/guille-pozzi-sbcIAn4Mn14-unsplash.jpg";
+import bg from "../Assets/bg1.jpg";
 import aboutBg from "../Assets/about.png";
 export const About = () => {
   const containerStyle = {

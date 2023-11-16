@@ -9,7 +9,7 @@ export const Navbar = () => {
  
 const [showMenu,setshowMenu]=useState(false);
   return (
-    <div className={'w-screen  flex flex-row justify-between bg-stone-700 p-1 md:p-4 sticky z-10 fixed-navbar'}>
+    <div className={'w-screen  flex flex-row justify-between bg-black p-1 md:p-4 sticky z-10 fixed-navbar'}>
       <div>
         <img src={logo} alt="logo" className='w-16 h-12 md:w-28 md:h-20'/>
       </div>

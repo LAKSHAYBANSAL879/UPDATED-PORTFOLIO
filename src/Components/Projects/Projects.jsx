@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from "../Assets/guille-pozzi-sbcIAn4Mn14-unsplash.jpg";
+
 import spotify from "../Assets/cZWZjymwI9o.jpg";
 import weather from "../Assets/KWTkd7mHqKE.jpg"
 import dictionary from "../Assets/T6fDN60bMWY.jpg"
@@ -12,6 +12,8 @@ import pokemon from "../Assets/Screenshot 2023-11-14 231341.png";
 import movie from "../Assets/Screenshot 2023-11-14 232259.png";
 import shopping from "../Assets/Screenshot 2023-11-14 233650.png";
 import bb from "../Assets/premium_photo-1661628984416-946603207cfc.avif";
+import bg from "../Assets/bg1.jpg"
+
 export const Projects = () => {
     const containerStyle = {
         backgroundImage: `url(${bg})`,

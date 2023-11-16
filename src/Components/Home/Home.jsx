@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLock,faHandPaper } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import pic from "../Assets/picofme__3_-removebg-preview.png";
-import bg from "../Assets/guille-pozzi-sbcIAn4Mn14-unsplash.jpg";
+import bg from "../Assets/bg1.jpg";
 
 export const Home = () => {
     const containerStyle = {
@@ -25,7 +25,7 @@ export const Home = () => {
         </div>
       </div>
       <div className='h-screen'>
-        <img src={pic} alt="myimg" className='md:absolute  m-auto md:right-36  md:top-12 md:ml-10 w-72 h-full md:h-full p-2'/>
+        <img src={pic} alt="myimg" className='md:absolute hidden md:flex m-auto md:right-36  md:top-12 md:ml-10 w-72 h-full md:h-full p-2'/>
       </div>
     </div>
     </section>

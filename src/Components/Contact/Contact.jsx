@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import bg from "../Assets/guille-pozzi-sbcIAn4Mn14-unsplash.jpg";
+import bg from "../Assets/bg1.jpg";
 import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
@@ -33,7 +33,7 @@ export const Contact = () => {
         </div>
         <div>
             <form ref={form} className='flex flex-col justify-center gap-6 items-center' onSubmit={sendEmail}  >
-<input type="text" name="from_name" id="name" placeholder='Your Name' className=' bg-stone-800 text-white w-1/2 font-bold text-xl p-3 border-none focus:border-yellow-500 '/>
+<input type="text" name="from_name" id="name" placeholder='Your Name' className=' bg-stone-800 text-white w-1/2 font-bold text-xl p-3  focus:border-2 focus-visible:border-yellow-300'/>
 <input type="number" name="from_number" id="number" placeholder='Your phone number' className='w-1/2 bg-stone-800 text-white  font-bold text-xl p-3'/>
 <input type="email" name='from_email' id='mail' placeholder='Your Email' className='w-1/2 bg-stone-800 text-white  font-bold text-xl p-3'/>
 <textarea name="message" id="" placeholder='Your Message' cols="30" rows="4" className='r resize-none w-1/2 min-h-fit max-h-96 bg-stone-800 text-white  font-bold text-xl p-3'></textarea>

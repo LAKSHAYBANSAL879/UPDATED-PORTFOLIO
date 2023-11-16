@@ -2,7 +2,7 @@
 import React from 'react';
 import resumePDF from "../Assets/resume2.pdf";
 import photo from "../Assets/Screenshot 2023-11-16 134739.png"
-import bg from "../Assets/guille-pozzi-sbcIAn4Mn14-unsplash.jpg";
+import bg from "../Assets/bg1.jpg";
 
 const Resume = () => {
   const handleDownload = () => {
