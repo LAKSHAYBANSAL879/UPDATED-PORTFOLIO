@@ -1,7 +1,7 @@
 // Resume.js
 import React from 'react';
-import resumePDF from "../Assets/resume.pdf";
-import photo from "../Assets/Screenshot 2023-11-15 000710.png"
+import resumePDF from "../Assets/resume2.pdf";
+import photo from "../Assets/Screenshot 2023-11-16 134739.png"
 import bg from "../Assets/guille-pozzi-sbcIAn4Mn14-unsplash.jpg";
 
 const Resume = () => {
