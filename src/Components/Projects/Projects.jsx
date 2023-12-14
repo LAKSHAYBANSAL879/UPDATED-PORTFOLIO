@@ -13,7 +13,7 @@ import movie from "../Assets/Screenshot 2023-11-14 232259.png";
 import shopping from "../Assets/Screenshot 2023-11-14 233650.png";
 import bb from "../Assets/premium_photo-1661628984416-946603207cfc.avif";
 import bg from "../Assets/bg1.jpg"
-
+import hotel from "../Assets/Screenshot 2023-12-14 230405.png";
 export const Projects = () => {
     const containerStyle = {
         backgroundImage: `url(${bg})`,
