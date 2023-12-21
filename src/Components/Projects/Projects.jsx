@@ -200,6 +200,18 @@ export const Projects = () => {
     <button className='p-3 rounded-2xl bg-purple-500 text-white text-xl'><a href="https://react-pokedex-dusky.vercel.app/">Demo</a></button>
     </div>
             </div>
+                 <div className=' m-auto flex mt-10 flex-row flex-wrap justify-center gap-10'>
+            <div className='flex flex-col items-center border-yellow-300 border-2 text-white flex-wrap h-fit hover:scale-105 transition-transform duration-300 w-80 p-4'>
+<img src={hotel} alt="" className='w-64 mt-5'/>
+<h1 className='text-yellow-300 font-extrabold text-4xl'>BookIt</h1>
+<p className='text-lg font-medium'>It is a Hotel booking website created using node,express,ReactJs,JS & Tailwind with feature of user AUTH,storing user info,adding new hotel by user with feature of uploading pictures and storing it in database using multer,choice from multiple hotels with feature of searching it through name and address,single booking page and also shows users all booking and listed hotels</p>
+<div className='flex flex-row gap-5 mt-3'>
+    <button className='p-3 m-auto rounded-2xl bg-purple-500 text-white text-xl'>
+        <a href="https://github.com/LAKSHAYBANSAL879/Hotel-booking-website">Github</a>
+    </button>
+{/*     <button className='p-3 rounded-2xl bg-purple-500 text-white text-xl'><a href="https://react-pokedex-dusky.vercel.app/">Demo</a></button> */}
+    </div>
+            </div>
             {/*
             <div className='flex flex-col items-center border-yellow-300 border-2 text-white flex-wrap h-fit hover:scale-105 transition-transform duration-300 w-80 p-4'>
 <img src={movie} alt="" className='w-64 mt-5'/>
