@@ -200,7 +200,7 @@ export const Projects = () => {
     <button className='p-3 rounded-2xl bg-purple-500 text-white text-xl'><a href="https://react-pokedex-dusky.vercel.app/">Demo</a></button>
     </div>
             </div>
-                 <div className=' m-auto flex mt-10 flex-row flex-wrap justify-center gap-10'>
+             <div className=' m-auto flex mt-10 flex-row flex-wrap justify-center gap-10'>
             <div className='flex flex-col items-center border-yellow-300 border-2 text-white flex-wrap h-fit hover:scale-105 transition-transform duration-300 w-80 p-4'>
 <img src={hotel} alt="" className='w-64 mt-5'/>
 <h1 className='text-yellow-300 font-extrabold text-4xl'>BookIt</h1>
@@ -209,43 +209,10 @@ export const Projects = () => {
     <button className='p-3 m-auto rounded-2xl bg-purple-500 text-white text-xl'>
         <a href="https://github.com/LAKSHAYBANSAL879/Hotel-booking-website">Github</a>
     </button>
-{/*     <button className='p-3 rounded-2xl bg-purple-500 text-white text-xl'><a href="https://react-pokedex-dusky.vercel.app/">Demo</a></button> */}
+
     </div>
             </div>
-            {/*
-            <div className='flex flex-col items-center border-yellow-300 border-2 text-white flex-wrap h-fit hover:scale-105 transition-transform duration-300 w-80 p-4'>
-<img src={movie} alt="" className='w-64 mt-5'/>
-<h1 className='text-yellow-300 font-extrabold text-4xl'>Movie search app</h1>
-<p className='text-lg font-medium'>It is a movie search app created by me using react js with help of  omdb API It has features of searching your favourite movie , getting all suggestion related to keywords,getting detail of movie & theme change option with pagination</p>
-<div className='flex flex-row gap-5 mt-3'>
-    <button className='p-3 m-auto rounded-2xl bg-purple-500 text-white text-xl'>
-        <a href="https://github.com/LAKSHAYBANSAL879/Movie-search-React">Github</a>
-    </button>
-    <button className='p-3 rounded-2xl bg-purple-500 text-white text-xl'><a href="https://movie-search-react-iota.vercel.app/">Demo</a></button>
-    </div>
-            </div> */}
-            {/* <div className='flex flex-col items-center border-yellow-300 border-2 text-white flex-wrap  h-fit hover:scale-105 transition-transform duration-300 w-80 p-4'>
-<img src={dictionary} alt="" className='w-64 mt-5'/>
-<h1 className='text-yellow-300 font-extrabold text-4xl'>Dictionary App</h1>
-<p className='text-lg font-medium'>It is a Dictionary app created by me using dictionary.dev API It has features of searching word, hearing word ,getting example sentence also getting simolar also with complete responsiveness</p>
-<div className='flex flex-row gap-5 mt-3'>
-    <button className='p-3 m-auto rounded-2xl bg-purple-500 text-white text-xl'>
-        <a href="https://github.com/LAKSHAYBANSAL879/DICTIONARY-APP">Github</a>
-    </button>
-    <button className='p-3 rounded-2xl bg-purple-500 text-white text-xl'><a href="https://lakshaybansal879.github.io/DICTIONARY-APP/">Demo</a></button>
-    </div>
-            </div>
-            <div className='flex flex-col items-center border-yellow-300 border-2 text-white flex-wrap  h-fit hover:scale-105 transition-transform duration-300 w-80 p-4'>
-<img src={translator} alt="" className='w-64 h-40 mt-5'/>
-<h1 className='text-yellow-300 font-extrabold text-4xl'>Translator App</h1>
-<p className='text-lg font-medium'>It is a Language Transaltor created by me using my memory API It has features of getting transalted in multiple languages , interchange input-output,hearing input-output & copy both also with complete responsiveness</p>
-<div className='flex flex-row gap-5 mt-3'>
-    <button className='p-3 m-auto rounded-2xl bg-purple-500 text-white text-xl'>
-        <a href="https://github.com/LAKSHAYBANSAL879/TRANSLATOR-APP">Github</a>
-    </button>
-    <button className='p-3 rounded-2xl bg-purple-500 text-white text-xl'><a href="https://lakshaybansal879.github.io/TRANSLATOR-APP/">Demo</a></button>
-    </div>
-            </div> */}
+           
             </div>
         </div>
     </div>
